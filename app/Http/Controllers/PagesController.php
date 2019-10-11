@@ -8,8 +8,8 @@ class PagesController extends Controller
 {
     public function index(){
         $data = array(
-            "title"=>"Home Page",
-            "Content"=>"This is dummy content"
+            "title"=>"Find a JOB!",
+            "Content"=>"Apply for job by creating a Account"
         );
         return view("pages.index")->with($data);
     }

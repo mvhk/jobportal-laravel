@@ -1,7 +1,8 @@
 @extends("layouts.app")
 @section("content")
-    <h1>{{$title}}</h1>
-    <p>
-        {{$Content}}
-    </p>
+    <div class="jumbotron text-center">
+        <h2>{{$title}}</h2>
+        <p>{{$Content}}</p>
+        <p> <a href="/login" class="btn btn-primary">Login</a> <a href="/signup" class="btn btn-info    ">Register</a></p>
+    </div>
 @endsection
