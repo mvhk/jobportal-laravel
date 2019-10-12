@@ -5,7 +5,7 @@
               <a class="p-2 text-white" href="/">Home</a>
               <a class="p-2 text-white" href="/about">About</a>
               <a class="p-2 text-white" href="/services">Services</a>
-            </nav>
+              <a class="p-2 text-white" href="/posts">Jobs</a> </nav>
             <a class="btn btn-outline-warning" href="/signup">Sign up</a>
           </div>
       
