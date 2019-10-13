@@ -14,8 +14,8 @@
                 <a class="p-2 text-white" href="/">Home</a>
                 <a class="p-2 text-white" href="/about">About</a>
                 <a class="p-2 text-white" href="/services">Services</a>
-                <a class="p-2 text-white" href="/posts">Jobs</a> 
-                <a class="p-2 text-white" href="/posts/create">Create-Job</a> 
+                <a class="p-2 text-white" href="/posts">All Jobs</a>
+                <a class="p-2 text-white" href="/home">DashBoard</a>
               </ul>
 
               <!-- Right Side Of Navbar -->
