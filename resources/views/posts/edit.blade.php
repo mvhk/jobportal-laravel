@@ -6,10 +6,10 @@
             {{Form::label("title","Title")}}
             {{Form::text("title",$post->title,['class' => 'form-control','placeholder' => 'Title',"autofocus"])}}
             <br>
-            {{Form::label("about","About Job")}}
-            {{Form::textarea("about",$post->body,["id"=>"editor1","class" => "form-control","placeholder" => "Details about the Job"])}}
+            {{Form::label("body","About Job")}}
+            {{Form::textarea("body",$post->body,["id"=>"editor1","class" => "form-control","placeholder" => "Details about the Job"])}}
             <br>
-            {{-- {{Form::hidden("_method","PUT")}} --}}
+            {{Form::hidden("_method","PUT")}}
             {{Form::submit("Submit",["class" => "btn btn-primary"])}}
         </div>
     {!! Form::close() !!}

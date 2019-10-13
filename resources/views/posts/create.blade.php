@@ -7,8 +7,8 @@
             {{Form::label("title","Title")}}
             {{Form::text("title",'',['class' => 'form-control','placeholder' => 'Title',"autofocus"])}}
             <br>
-            {{Form::label("about","About Job")}}
-            {{Form::textarea("about","",["id"=>"editor1","class" => "form-control","placeholder" => "Details about the Job"])}}
+            {{Form::label("body","About Job")}}
+            {{Form::textarea("body","",["id"=>"editor1","class" => "form-control","placeholder" => "Details about the Job"])}}
             <br>
             {{Form::submit("Submit",["class" => "btn btn-primary"])}}
         </div>
